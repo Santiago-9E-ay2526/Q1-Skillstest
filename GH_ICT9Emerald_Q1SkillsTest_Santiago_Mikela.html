@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q1 Skills Test</title>
+  <link rel="stylesheet" type="text/css" href="styles_Q1SkillsTest.css">
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<form>
+  <div class="a">
+    <h1>OBMC Robotics Club Application Form</h1>
+    <p>The <b>Robotics Club</b> is perfect for students passionate about technology. We design, build, and program robots while learning teamwork, creativity, and practical skills in science and engineering. Fill out this form to <b>apply</b> for our school’s Robotics Club.</p>
+  </div>
+    <div class="b">
+      <fieldset>
+        <label for="yourname"><b>Full Name:</b></label><br>
+        <input type="text" id="yourname" name="yourname"><br><br>
+
+        <label for="form-email"><b>Email:</b></label><br>
+        <input type="email" id="form-email" name="form-email" placeholder="example@email.com"><br><br>
+
+        <label for="grade-level"><b>Grade Level:</b></label>
+        <select id="grade-level">
+          <option value="select-grade"> Select grade</option>
+          <option value="Grade 7"> Grade 7</option>
+          <option value="Grade 8"> Grade 8</option>
+          <option value="Grade 9"> Grade 9</option>
+          <option value="Grade 10"> Grade 10</option>
+          <option value="Grade 11"> Grade 11</option>
+          <option value="Grade 12"> Grade 12</option>
+        </select>
+        <br><br>
+
+        <label><b>Gender:</b></label><br>
+        <input type="radio" name="gender" value="male"> <label>Male</label>
+        <input type="radio" name="gender" value="female"> <label>Female</label>
+        <br><br>
+
+        <label><b>What are your skills?:</b></label><br>
+        <input type="checkbox" name="skills" value="coding"> <label>Coding</label>
+        <input type="checkbox" name="skills" value="design"> <label>Design</label>
+        <input type="checkbox" name="skills" value="electronics"> <label>Electronics</label>
+        <br><br>
+
+        <label for="whyrecommend"><b>Why do you want to join?:</b></label><br>
+        <textarea cols="85" rows="5" style="border-radius: 5px;"></textarea><br><br>
+      </fieldset>
+    </div>
+
+	<div class="reset-container">
+ 		<input type="reset" value="Reset">
+	</div>
+
+  <div class="container">
+    <h3>Top Robotics Activities We Offer</h3>
+    <ul class="myUL">
+      <li>Robot Design & Building</li>
+      <li>Programming & Automation</li>
+      <li>Robotics Competitions & Challenges</li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h3>Helpful Links</h3>
+    <ol class="myUL">
+      <li><a href="https://formant.io/resources/glossary/robotics/" target="_blank">What is Robotics?</a></li>
+      <li><a href="https://builtin.com/robotics" target="_blank">Robotics: What Are Robots?</a></li>
+    </ol>
+  </div>
+
+ 	<br><br>
+	<div class="button-container">
+  		<input type="submit" value="Submit Form">
+	</div>
+
+</form>
+</body>
+</html>
